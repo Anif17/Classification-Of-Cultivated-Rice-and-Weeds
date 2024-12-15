@@ -2,32 +2,32 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 home_page = st.Page(
-    page="views/home.py",
+    page="Views/home.py",
     title="Home",
     icon="🏠",
     default=True,
 )
 
 prediction_page = st.Page(
-    page="views/prediction.py",
+    page="Views/prediction.py",
     title="Prediction",
     icon="🔮",
 )
 
 history_page = st.Page(
-    page="views/history.py",
+    page="Views/history.py",
     title="History",
     icon="🪶",
 )
 
 dataset_page = st.Page(
-    page="views/dataset.py",
+    page="Views/dataset.py",
     title="Dataset",
     icon="🗂️",
 )
 
 detail_page = st.Page(
-    page="views/detail.py",
+    page="Views/detail.py",
     title="Detail",
     icon="📝",
 )
